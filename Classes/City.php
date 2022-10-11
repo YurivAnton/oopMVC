@@ -1,15 +1,21 @@
 <?php
 class City{
-    private $name;
-    private $population;
+    public $name;
+    public $foundation;
+    public $population;
 
-    public function __construct($name, $population) {
+    public function __construct($name, $foundation, $population) {
         $this->name = $name;
+        $this->foundation = $foundation;
         $this->population = $population;
     }
 
     public function getName() {
         return $this->name;
+    }
+
+    public function getFoundation() {
+        return $this->foundation;
     }
 
     public function getPopulation() {

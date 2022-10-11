@@ -17,6 +17,7 @@
         <li><a href="oopMVC/objects_in_array.php">Objects in array</a></li>
         <li><a href="oopMVC/constructor_initial_properties_values.php">Constructor initial properties values</a></li>
         <li><a href="oopMVC/declaring_initial_prolerties_values.php">Declaring initial properties values</a></li>
+        <li><a href="oopMVC/variable_properties_names.php">Variable properties names</a></li>
     </ol>
     </body>
 </html>
