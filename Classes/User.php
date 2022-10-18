@@ -1,7 +1,7 @@
 <?php
 class User
 {
-    private $name;
+  private $name;
 	private $age;
 
 	public function getName()
@@ -27,5 +27,6 @@ class User
 			$this->age = $age;
 		}
 	}
+
 }
 

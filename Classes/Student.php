@@ -1,6 +1,6 @@
 <?php
-class Student extends User{
-    /*
+class Student extends User
+{
     private $name;
     private $course;
 
@@ -13,8 +13,18 @@ class Student extends User{
         return $this->name;
     }
 
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
     public function getCourse() {
         return $this->course;
+    }
+
+    public function setCourse($course)
+    {
+        $this->course = $course;
     }
 
     public function transferToNextCourse() {
