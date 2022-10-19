@@ -21,6 +21,7 @@
         <li><a href="oopMVC/variable_properties_names.php">Variable properties names</a></li>
         <li><a href="oopMVC/class_as_methods_set.php">Class as methods set</a></li>
         <li><a href="oopMVC/overriding_of_parent_methods.php">Overriding of parent methods</a></li>
+        <li><a href="oopMVC/parent_constructor_overriding.php">Parent constructor overriding</a></li>
     </ol>
 </body>
 

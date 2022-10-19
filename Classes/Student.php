@@ -1,6 +1,7 @@
 <?php
 class Student extends User
 {
+    /*
     private $name;
     private $course;
 
