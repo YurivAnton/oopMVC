@@ -25,6 +25,7 @@
         <li><a href="oopMVC/using_objects_in_class.php">Using objects in class</a></li>
         <li><a href="oopMVC/passing_objects_by_paramete.php">Passing objects by paramete</a></li>
         <li><a href="oopMVC/types_control.php">Types control</a></li>
+        <li><a href="oopMVC/static_methods.php">Static methods</a></li>
     </ol>
 </body>
 
