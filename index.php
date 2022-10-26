@@ -22,6 +22,8 @@
         <li><a href="oopMVC/class_as_methods_set.php">Class as methods set</a></li>
         <li><a href="oopMVC/overriding_of_parent_methods.php">Overriding of parent methods</a></li>
         <li><a href="oopMVC/parent_constructor_overriding.php">Parent constructor overriding</a></li>
+        <li><a href="oopMVC/using_objects_in_class.php">Using objects in class</a></li>
+        <li><a href="oopMVC/passing_objects_by_paramete.php">Passing objects by paramete</a></li>
     </ol>
 </body>
 
