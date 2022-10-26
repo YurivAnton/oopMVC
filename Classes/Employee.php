@@ -1,5 +1,6 @@
 <?php
-class Employee extends User
+//class Employee extends User
+class Employee
 {
     /* 
     //
@@ -16,7 +17,7 @@ class Employee extends User
     } */
 
     //22
-    private $salary;
+    /* private $salary;
 
     public function __construct($name, $surname, $birthday, $salary) {
         parent::__construct($name, $surname, $birthday);
@@ -25,5 +26,40 @@ class Employee extends User
 
     public function getSalary() {
         return $this->salary;
+    } */
+
+    //28
+    private $name;
+    private $surname;
+    private $post;
+
+    public function __construct($name, $surname, Post $post) {
+        $this->name = $name;
+        $this->surname = $surname;
+        $this->post = $post;
+    }
+
+    public function getName() {
+        return $this->name;
+    }
+
+    public function setName($name) {
+        $this->name = $name;
+    }
+
+    public function getSurname() {
+        return $this->surname;
+    }
+
+    public function setSurname($surname) {
+        $this->surname = $surname;
+    }
+
+    public function getPost() {
+        return $this->post;
+    }
+
+    public function changePost(Post $post) {
+        $this->post = $post;
     }
 }
