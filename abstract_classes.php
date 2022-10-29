@@ -36,3 +36,10 @@ $rectangle = new Rectangle(2, 4);
 echo $rectangle->getSquare() . ' ' . $rectangle->getPerimeter();
 echo '<br>';
 echo $rectangle->getSquarePerimeterSum();
+
+//36
+require_once 'Classes/iFigure.php';
+require_once 'Classes/Disk.php';
+$disk = new Disk(10);
+
+echo '<br>' . $disk->getSquare() . ' ' . $disk->getPerimeter();
