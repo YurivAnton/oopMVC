@@ -16,7 +16,7 @@ class ArraySumHelper{
         return self::getSum($arr, 4);
     }
 
-    private function getSum($arr, $power) {
+    private static function getSum($arr, $power) {
         $sum = 0;
         foreach($arr as $elem) {
             $sum += pow($elem, $power);

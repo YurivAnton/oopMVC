@@ -1,7 +1,8 @@
 <?php
+/*
 class User
 {
-  	/* private $name;
+  	private $name;
 	private $age;
 
 	public function getName()
@@ -26,7 +27,9 @@ class User
 		if ($age >= 18) {
 			$this->age = $age;
 		}
-	} */
+    } 
+ */
+/*
 	private $name;
 	private $surname;
 	private $birthday;
@@ -61,5 +64,20 @@ class User
 		$age = floor($diff / (365*60*60*24));
 		return $age;
 	}
+}
+ */
+//35
+abstract class User{
+    private $name;
+
+    public function getName() {
+        return $this->name;
+    }
+
+    public function setName($name) {
+        $this->name = $name;
+    }
+
+    abstract public function increaseRevenue($value);
 }
 

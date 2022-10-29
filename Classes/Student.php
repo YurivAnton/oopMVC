@@ -1,7 +1,7 @@
 <?php
+/*
 class Student extends User
 {
-    /*
     private $name;
     private $course;
 
@@ -34,6 +34,7 @@ class Student extends User
         }
     }
      */
+/*
     private $course;
 
 	public function setAge($age)
@@ -59,5 +60,22 @@ class Student extends User
 	{
 		$this->course = $course;
 	}
+}
+ */
+//35
+class Student extends User{
+    private $scholarship;
+
+    public function getScholarship() {
+        return $this->scholarship;
+    }
+
+    public function setScholarship($scholarship) {
+        $this->scholarship = $scholarship;
+    }
+
+    public function increaseRevenue($value) {
+        $this->scholarship = $this->scholarship + $value;
+    }
 }
 
