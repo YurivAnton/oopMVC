@@ -1,9 +1,8 @@
 <?php
 //class Employee extends User
+/*
 class Employee
 {
-    /* 
-    //
     private $salary;
 
     public function getSalary()
@@ -29,6 +28,7 @@ class Employee
     } */
 
     //28
+/*
     private $name;
     private $surname;
     private $post;
@@ -61,5 +61,22 @@ class Employee
 
     public function changePost(Post $post) {
         $this->post = $post;
+    }
+}
+ */
+//35
+class Employee extends User{
+    private $salary;
+
+    public function getSalary() {
+        return $this->salary;
+    }
+
+    public function setSalary($salary) {
+        $this->salary = $salary;
+    }
+
+    public function increaseRevenue($value) {
+        $this->salary = $this->salary + $value;
     }
 }
