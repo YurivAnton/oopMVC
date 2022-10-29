@@ -77,5 +77,9 @@ class Student extends User{
     public function increaseRevenue($value) {
         $this->scholarship = $this->scholarship + $value;
     }
+
+    public function decreaseRevenue($value) {
+        $this->scholarship = $this->scholarship - $value;
+    }
 }
 
