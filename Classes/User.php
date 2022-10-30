@@ -1,4 +1,26 @@
 <?php
+//38
+class User implements iUser {
+	private $name;
+	private $age;
+
+	public function setName($name) {
+		$this->name = $name;
+	}
+
+	public function getName() {
+		return $this->name;
+	}
+
+	public function setAge($age) {
+		$this->age = $age;
+	}
+
+	public function getAge() {
+		return $this->age;
+	}
+}
+
 /*
 class User
 {
@@ -67,7 +89,7 @@ class User
 }
  */
 //35
-abstract class User{
+/* abstract class User{
     private $name;
 
     public function getName() {
@@ -81,5 +103,5 @@ abstract class User{
     abstract public function increaseRevenue($value);
 
 	abstract public function decreaseRevenue($value);
-}
+} */
 
