@@ -7,6 +7,8 @@
 </head>
 
 <body>
+    <a href="java/index.php">java</a>
+    <br>
     Menu
     <ol>
         <li><a href="oopMVC/properties.php">Properies</a></li>
@@ -27,6 +29,7 @@
         <li><a href="oopMVC/types_control.php">Types control</a></li>
         <li><a href="oopMVC/static_methods.php">Static methods</a></li>
         <li><a href="oopMVC/abstract_classes.php">Abstract classes</a></li>
+        <li><a href="oopMVC/applying_interface.php">Applying interface</a></li>
     </ol>
 </body>
 
